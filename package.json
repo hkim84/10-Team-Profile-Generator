@@ -1,4 +1,12 @@
 {
+  "name": "10_team_profile_generator",
+  "version": "1.0.0",
+  "description": "building a team profile generator and testing",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+},
   "devDependencies": {
     "jest": "^29.3.1"
   },
