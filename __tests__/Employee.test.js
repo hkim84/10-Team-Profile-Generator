@@ -6,14 +6,14 @@ test('should create a new employee', () => {
 });
 
 test('should set the name by constructor argument', () => {
-    const name = "Hoon";
-    const e = new Employee();
+    const name = "Nooh";
+    const e = new Employee(name);
     expect(e.name).toBe(name);
 });
 
 test('should set id by constructor argument', () => {
     const testValue = "100";
-    const e = new Employee("nooh", testValue);
+    const e = new Employee("Nooh", testValue);
     expect(e.id).toBe(testValue);
 });
 
@@ -24,20 +24,20 @@ test('should set email by constructor argument', () => {
 });
 
 test("should get name by getName()", () => {
-    const testValue = "Alice";
+    const testValue = "Nooh";
     const e = new Employee(testValue);
     expect(e.getName()).toBe(testValue);
   });
   
   test("should get id by getId()", () => {
     const testValue = 100;
-    const e = new Employee("Foo", testValue);
+    const e = new Employee("Nooh", testValue);
     expect(e.getId()).toBe(testValue);
   });
   
   test("should get email by getEmail()", () => {
     const testValue = "test@email.com";
-    const e = new Employee("Foo", 1, testValue);
+    const e = new Employee("Nooh", 1, testValue);
     expect(e.getEmail()).toBe(testValue);
   });
   
