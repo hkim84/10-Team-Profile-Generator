@@ -7,6 +7,10 @@
     "lib": "lib",
     "test": "test"
 },
+"scripts": {
+  "start": "node index",
+  "test": "jest --verbose test/*"
+},
   "devDependencies": {
     "jest": "^29.3.1"
   },
