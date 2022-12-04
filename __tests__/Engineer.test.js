@@ -1,14 +1,14 @@
 const Engineer = require("../lib/Engineer");
 
-// test for instantiating an employee instance
+// test for instantiating an engineer instance
 describe("EngineerTest", () => {
-test('should instantiate employee instanc', () => {
+test('should instantiate engineer instance', () => {
     const e = new Engineer();
     expect(typeof(e)).toBe("object");
 })
 });
 
-// test for setting variable for name, passing new employee name
+// test for setting variable for name, passing new engineer name
 test('should set the name by constructor argument', () => {
     const name = "Nooh";
     const e = new Engineer(name);

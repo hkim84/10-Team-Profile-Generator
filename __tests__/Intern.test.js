@@ -1,14 +1,14 @@
 const Intern = require("../lib/Intern");
 
-// test for instantiating an employee instance
+// test for instantiating an intern instance
 describe("InternTest", () => {
-    test('should instantiate employee instanc', () => {
+    test('should instantiate intern instance', () => {
         const e = new Intern();
         expect(typeof(e)).toBe("object");
     })
     });
     
-    // test for setting variable for name, passing new employee name
+    // test for setting variable for name, passing new intern name
     test('should set the name by constructor argument', () => {
         const name = "Nooh";
         const e = new Intern(name);
