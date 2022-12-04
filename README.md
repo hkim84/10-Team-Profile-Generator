@@ -4,8 +4,7 @@
 ## Description
 A generator for employer to list their employee in a simple format.
 
-Table of Contents
-
+## Table of Content
 - [Installation](## Installation)
 - [Usage](## Usage)
 - [License](## License)
@@ -16,7 +15,9 @@ Table of Contents
 ## Installation
 You would need to install by doing 
 npm i 
+
 ## Usage
+
 
 ## License
 A link to more information on license
@@ -30,3 +31,4 @@ npm run test
 [Github](https://github.com/hkim84/10-Team-Profile-Generator)
 
 ## Demo
+[video link]
