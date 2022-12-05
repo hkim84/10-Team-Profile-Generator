@@ -17,7 +17,7 @@ You would need to install by doing
 npm i 
 
 ## Usage
-
+an application to have quick teambuilder html
 
 ## License
 A link to more information on license
@@ -31,4 +31,4 @@ npm run test
 [Github](https://github.com/hkim84/10-Team-Profile-Generator)
 
 ## Demo
-[video link]
+[video link](https://drive.google.com/file/d/1qACJ8wkbgvTKr-L1zZ1tOZyj08oGtNbf/view)
